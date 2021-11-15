@@ -1,0 +1,157 @@
+hero hero--large hero-hero-1 hero__overlay box ratio-container js lazyloaded
+
+
+element.style {
+    background-position: center center;
+    background-image: url(https://cdn.shopify.com/s/files/1/0299/0574/8073/files/Chhoti_Si_Asha_045.jpg?v=1591773932);
+}
+@media only screen and (min-width: 750px)
+.hero--large {
+    height: 650
+px
+;
+}
+.hero--large {
+    height: 488
+px
+;
+}
+.hero {
+    position: relative;
+    height: 475
+px
+;
+    display: table;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.ratio-container {
+    position: relative;
+}
+.box {
+    background: no-repeat;
+    background-color: #f7f7f7;
+    background-size: contain;
+}
+div {
+    outline: 1
+px
+ solid #036cdb!important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.disclosure__toggle, body, button, input, select, textarea {
+    font-size: 15px;
+    font-family: Helvetica,"Helvetica Neue",Arial,"Lucida Grande",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #3a3a3a;
+    line-height: 1.5;
+}
+.disclosure__toggle, body, button, input, select, textarea {
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+.hero__overlay::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #685858;
+    opacity: .4;
+    z-index: 1;
+}
+
+<!--------------------------------------!>
+
+@media only screen and (min-width: 750px)
+.index-section {
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+.index-section {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.disclosure__toggle, body, button, input, select, textarea {
+    font-size: 15px;
+    font-family: Helvetica,"Helvetica Neue",Arial,"Lucida Grande",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #3a3a3a;
+    line-height: 1.5;
+}
+.disclosure__toggle, body, button, input, select, textarea {
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+<!-----------------------------------------!>
+
+.page-width {
+    padding-left: 55
+px
+;
+    padding-right: 55
+px
+;
+}
+
+.page-width {
+    max-width: 1200
+px
+;
+    margin: 0 auto;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.disclosure__toggle, body, button, input, select, textarea {
+    font-size: 15px;
+    font-family: Helvetica,"Helvetica Neue",Arial,"Lucida Grande",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #3a3a3a;
+    line-height: 1.5;
+}
+.disclosure__toggle, body, button, input, select, textarea {
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.page-width::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
