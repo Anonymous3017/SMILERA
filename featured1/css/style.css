@@ -411,3 +411,121 @@ background-position: 50% 50%;
     display: table;
     clear: both;
 }
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .page-width::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+
+  /* ---------------------------- by AYUSHI --------------------------------------------------- */
+
+  .flex-container {
+	width: 800px;
+	display: flex;
+	margin: auto;
+	border: 1px solid beige;
+  }
+  
+  .flex-container div {
+	margin: 15px;
+  }
+  
+  .form {
+	width: 500px !important;
+  }
+  h2 {
+	padding-left: 13px;
+  }
+  
+  .contacts {
+	display: flex;
+	border-top: 1px solid #000;
+	border-left: 1px solid #000;
+	width: 450px !important;
+  }
+  
+  .contacts button {
+	background-color: black;
+	color: white;
+	margin-top: 25px;
+	padding: 8px 15px;
+	border-radius: 20px;
+	font-family: "Courier New", Courier, monospace;
+  }
+  
+  .inputs {
+	flex: 60%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background: white;
+	color: #000;
+	font-family: "Courier New", Courier, monospace;
+  }
+  
+  input {
+	width: 100%;
+	padding-bottom: 10px;
+	padding-top: 10px;
+  }
+  
+  input:focus {
+	outline: none;
+  }
+  
+  .hy {
+	flex: 40%;
+  }
+  .email {
+	width: 150px;
+	margin: auto;
+  }
+  
+  .location {
+	padding-top: 35px;
+  }
+  
+  img {
+	width: 250px;
+	height: 350px;
+	object-fit: cover;
+  }
+  
+  input[type="text"] {
+	border: none;
+	border-bottom: 1px solid #000;
+  }
+  
+  input[type="email"] {
+	border: none;
+	border-bottom: 1px solid #000;
+  }
+  
+  .social {
+	width: 100px;
+	padding: 10px;
+  }
+  
+  .social i {
+	margin-right: 7px;
+  }
+  
+  footer {
+	/* background-color: gainsboro; */
+	margin-top: 20px;
+	height: 70px;
+	padding: 20px;
+	justify-content: center;
+	align-items: center;
+	float: center;
+	display: flex;
+  }
+  
