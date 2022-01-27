@@ -1,5 +1,5 @@
 /* General Reset */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, hr, button {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, hr, button {
 	margin:0;
 	padding:0;
 	border:0;
@@ -105,7 +105,9 @@ h6 {
 
 	/*  tables
 	******************************/
-	table,th,td {border:1px solid #AAAAAA;}
+	table,th,td {border:1px solid #AAAAAA;border-collapse: separate;
+		box-sizing: border-box;
+		text-indent: initial;}
 	th {padding:3px; font-weight:bold;color:#344b3b;}
 	tr {margin:0 0 5px 0;padding:3px;}
 	td {padding:5px;margin:0 1px;}
@@ -425,107 +427,25 @@ background-position: 50% 50%;
 	display: table;
   }
 
-  /* ---------------------------- by AYUSHI --------------------------------------------------- */
-
-  .flex-container {
-	width: 800px;
-	display: flex;
-	margin: auto;
-	border: 1px solid beige;
-  }
-  
-  .flex-container div {
-	margin: 15px;
-  }
-  
-  .form {
-	width: 500px !important;
-  }
-  h2 {
-	padding-left: 13px;
-  }
-  
-  .contacts {
-	display: flex;
-	border-top: 1px solid #000;
-	border-left: 1px solid #000;
-	width: 450px !important;
-  }
-  
-  .contacts button {
-	background-color: black;
-	color: white;
-	margin-top: 25px;
-	padding: 8px 15px;
-	border-radius: 20px;
-	font-family: "Courier New", Courier, monospace;
-  }
-  
-  .inputs {
-	flex: 60%;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	background: white;
-	color: #000;
-	font-family: "Courier New", Courier, monospace;
-  }
-  
-  input {
-	width: 100%;
-	padding-bottom: 10px;
-	padding-top: 10px;
-  }
-  
-  input:focus {
-	outline: none;
-  }
-  
-  .hy {
-	flex: 40%;
-  }
-  .email {
-	width: 150px;
-	margin: auto;
-  }
-  
-  .location {
-	padding-top: 35px;
-  }
-  
-  img {
-	width: 250px;
-	height: 350px;
-	object-fit: cover;
-  }
-  
-  input[type="text"] {
-	border: none;
-	border-bottom: 1px solid #000;
-  }
-  
-  input[type="email"] {
-	border: none;
-	border-bottom: 1px solid #000;
-  }
-  
-  .social {
-	width: 100px;
-	padding: 10px;
-  }
-  
-  .social i {
-	margin-right: 7px;
-  }
-  
-  footer {
-	/* background-color: gainsboro; */
-	margin-top: 20px;
-	height: 70px;
-	padding: 20px;
-	justify-content: center;
-	align-items: center;
-	float: center;
-	display: flex;
-  }
-  
+ td {
+   display: table-cell;
+   vertical-align: inherit;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: gray;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
