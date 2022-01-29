@@ -159,17 +159,6 @@ h6 {
 	border:#496066 solid 1px;
 }
 
-#box .hero__overlay::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: #685858;
-    opacity: .4;
-    z-index: 1;
-}
 
 #box .hero--large {
     height: 560px;
