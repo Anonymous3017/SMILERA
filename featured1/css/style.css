@@ -512,3 +512,34 @@ tbody {
     color: #333232;
     font-weight: 700;
 }
+/* -------------------------------- About Box ---------------------------------------------- */
+.About-box {
+	padding: 0 30px 0;
+	position: relative;
+}
+.About-bg-img {
+	display: block;
+	height: 1002px;
+	width: 940px;
+	opacity: .9;
+}
+.About-overlay {
+	position: absolute;
+	bottom: 0;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.5);
+	color: #f1f1f1;
+	transition: .5s ease;
+	opacity:1;
+	color: white;
+	height: 1002px;
+	width: 940px;
+	text-align: center;
+}
+/* .About-box:hover  .About-overlay {
+	opacity:0;
+} */
+
+.p-Abt {
+	line-height: 1.9;
+}
